@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiara Octavia - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>Tiara.dev</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#biodata" class="nav-link">Profil</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Halo, Saya <span class="highlight">Tiara Octavia</span></h1>
+                        <p>Siswi RPL di SMK Hang Tuah 1 Jakarta</p>
+                        <button class="btn btn-primary" onclick="showSection('portfolio')">Lihat Portfolio</button>
+                    </div>
+                    <div class="hero-image">
+                        <img src="asset/profile.jpg" alt="Tiara Octavia" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Biodata Section -->
+        <section id="biodata" class="section">
+            <div class="container">
+                <h2>Profil Saya</h2>
+                <div class="biodata-content">
+                    <div class="info-card">
+                        <h3>Informasi Pribadi</h3>
+                        <p><strong>Nama:</strong> Tiara Octavia Aruan</p>
+                        <p><strong>TTL:</strong> Jakarta, 29 Oktober 2008</p>
+                        <p><strong>Sekolah:</strong> SMK Hang Tuah 1 Jakarta</p>
+                        <p><strong>Jurusan:</strong> Rekayasa Perangkat Lunak</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portfolio Saya</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <h3>E-Commerce Website</h3>
+                        <p>Website toko online dengan fitur lengkap</p>
+                        <a href="https://itsmenobi4.github.io/FISC2/">Link Website</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak Section -->
+        <section id="kontak" class="section">
+            <div class="container">
+                <h2>Hubungi Saya</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fab fa-whatsapp"></i> +62 8973852390</p>
+                        <p><i class="fas fa-envelope"></i> arakiyowo29@gmail.com</p>
+                        <p><i class="fab fa-instagram"></i> @t_0aa29</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
